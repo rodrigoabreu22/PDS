@@ -1,0 +1,24 @@
+palavra              7     11,2     Right     
+ontem                5     7,6      Left      
+amanha               6     1,7      Right     
+agora                5     2,3      Right     
+moto                 4     7,1      Down      
+ricardo              7     11,11    Up        
+joao                 4     7,9      UpLeft    
+erro                 4     8,2      Right     
+rico                 4     7,8      UpLeft    
+cao                  3     4,8      DownRight 
+furacao              7     10,4     Right     
+
+. . . . . . A M A N H A 
+. . A G O R A . . . . . 
+. . . . . . . . . . . . 
+. . . . O O . C . . . . 
+. . . . . C A . A . O . 
+. . . . . . I O . O D . 
+M M E T N O . R J . R . 
+O E R R O . . . . . A . 
+T . . . . . . . . . C . 
+O . . F U R A C A O I . 
+. P A L A V R A . . R . 
+. . . . . . . . . . . . 

@@ -1,0 +1,22 @@
+palavra              7     9,11     UpLeft    
+ontem                5     9,2      Up        
+amanha               6     10,7     Left      
+agora                5     6,8      Left      
+moto                 4     1,8      Left      
+carro                5     11,7     Up        
+aviao                5     3,11     Down      
+terminal             8     2,5      DownRight 
+erro                 4     9,3      UpRight   
+
+. . . . O T O M . . . . 
+. . . . T . . . . . . . 
+. . . . A E . . . . A . 
+. . . . . R R . . . V . 
+. M . . . . V M . . I . 
+. E . A R O G A I . A . 
+. T . . R . O . L N O . 
+. N . R . . R . . A A . 
+. O E . . . R . . . P L 
+. A H N A M A . . . . . 
+. . . . . . C . . . . . 
+. . . . . . . . . . . . 

@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "ex1/b",
+        "ex1/a",
+        "ex02/src",
+        "ex01a/src",
+        "ex03/src"
+    ]
+}

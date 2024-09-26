@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" modified="2024-04-07T17:26:09.669Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="NzOAMH_Yhy1ZQt-zrFV-" version="24.2.2" type="device">
+  <diagram name="Página-1" id="SDFLi021weBesE8IxIim">
+    <mxGraphModel dx="1062" dy="1383" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-3" value="Movie" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="271" width="160" height="257" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-4" value="&lt;div&gt;- title: String&lt;/div&gt;&lt;div&gt;- year: int&lt;/div&gt;&lt;div&gt;- director: Person&lt;/div&gt;&lt;div&gt;- writer: Person&lt;/div&gt;&lt;div&gt;- series: String&lt;/div&gt;&lt;div&gt;- cast: List&amp;lt;Person&amp;gt;&lt;/div&gt;&lt;div&gt;- locations: List&amp;lt;Place&amp;gt;&lt;/div&gt;&lt;div&gt;- languages: List&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div&gt;- genres: List&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div&gt;- isTelevision: boolean&lt;/div&gt;&lt;div&gt;- isNetflix: boolean&lt;/div&gt;&lt;div&gt;- isIndependent: boolean&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ADcBSuXb61-Bno_A6Hsj-3">
+          <mxGeometry y="26" width="160" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ADcBSuXb61-Bno_A6Hsj-3">
+          <mxGeometry y="210" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-6" value="&lt;div&gt;# Movie(Builder)&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ADcBSuXb61-Bno_A6Hsj-3">
+          <mxGeometry y="218" width="160" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-8" value="Builder" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="468" y="271" width="221" height="427" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-9" value="&lt;div&gt;- title: String&lt;/div&gt;&lt;div&gt;- year: int&lt;/div&gt;&lt;div&gt;- director: Person&lt;/div&gt;&lt;div&gt;- writer: Person&lt;/div&gt;&lt;div&gt;- series: String&lt;/div&gt;&lt;div&gt;- cast: List&amp;lt;Person&amp;gt;&lt;/div&gt;&lt;div&gt;- locations: List&amp;lt;Place&amp;gt;&lt;/div&gt;&lt;div&gt;- languages: List&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div&gt;- genres: List&amp;lt;String&amp;gt;&lt;/div&gt;&lt;div&gt;- isTelevision: boolean&lt;/div&gt;&lt;div&gt;- isNetflix: boolean&lt;/div&gt;&lt;div&gt;- isIndependent: boolean&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ADcBSuXb61-Bno_A6Hsj-8">
+          <mxGeometry y="26" width="221" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ADcBSuXb61-Bno_A6Hsj-8">
+          <mxGeometry y="206" width="221" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-11" value="&lt;div&gt;+ Builder(String, int)&lt;/div&gt;&lt;div&gt;+ setDirector(Person): Builder&lt;/div&gt;&lt;div&gt;+ setWriter(Person): Builder&lt;/div&gt;&lt;div&gt;+ setSeries(String): Builder&lt;/div&gt;&lt;div&gt;+ setSeries(String): Builder&lt;/div&gt;&lt;div&gt;+ setCast(List&amp;lt;Person&amp;gt;): Builder&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setLocations(List&amp;lt;Place&amp;gt;): Builder&lt;/div&gt;&lt;div&gt;+ setLanguages(List&amp;lt;String&amp;gt;): Builder&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setGenres(List&amp;lt;String&amp;gt;): Builder&lt;/div&gt;&lt;div&gt;+ setIsTelevision(boolean): Builder&lt;/div&gt;&lt;div&gt;+ setIsNetflix(boolean): Builder&lt;/div&gt;&lt;div&gt;+ setIsIndependent(boolean): Builder&lt;/div&gt;&lt;div&gt;+ resert(): void&lt;/div&gt;&lt;div&gt;+ build(): Movie&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ADcBSuXb61-Bno_A6Hsj-8">
+          <mxGeometry y="214" width="221" height="213" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-12" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=-0.006;entryY=0.541;entryDx=0;entryDy=0;exitX=1;exitY=0.53;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="ADcBSuXb61-Bno_A6Hsj-4" target="ADcBSuXb61-Bno_A6Hsj-9">
+          <mxGeometry x="-0.9324" y="6" relative="1" as="geometry">
+            <mxPoint x="266" y="400" as="sourcePoint" />
+            <mxPoint x="426" y="400" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-14" value="Person" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="123" y="848" width="204" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-15" value="&lt;div&gt;- nome: String&lt;/div&gt;&lt;div&gt;- age: int&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ADcBSuXb61-Bno_A6Hsj-14">
+          <mxGeometry y="26" width="204" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ADcBSuXb61-Bno_A6Hsj-14">
+          <mxGeometry y="62" width="204" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-17" value="&lt;div&gt;- Person(String, int)&lt;/div&gt;&lt;div&gt;+ createPerson(String, int): Person&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ADcBSuXb61-Bno_A6Hsj-14">
+          <mxGeometry y="70" width="204" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-18" value="Place" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="453" y="848" width="239" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-19" value="&lt;div&gt;- name: String&lt;/div&gt;&lt;div&gt;- city: String&lt;/div&gt;&lt;div&gt;- country: String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ADcBSuXb61-Bno_A6Hsj-18">
+          <mxGeometry y="26" width="239" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ADcBSuXb61-Bno_A6Hsj-18">
+          <mxGeometry y="75" width="239" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-21" value="&lt;div&gt;- Place(String, String, String)&lt;/div&gt;&lt;div&gt;+ createPlace(String, String, String): Place&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ADcBSuXb61-Bno_A6Hsj-18">
+          <mxGeometry y="83" width="239" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-22" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MovieMain&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ main(String[]): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="493.5" y="125" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-23" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ADcBSuXb61-Bno_A6Hsj-22" target="ADcBSuXb61-Bno_A6Hsj-8">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="654" y="559" as="sourcePoint" />
+            <mxPoint x="585" y="217" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-25" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0.475;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.547;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ADcBSuXb61-Bno_A6Hsj-6" target="ADcBSuXb61-Bno_A6Hsj-14">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="589" y="185" as="sourcePoint" />
+            <mxPoint x="237" y="846" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ADcBSuXb61-Bno_A6Hsj-29" value="" style="endArrow=block;endFill=1;html=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=top;rounded=0;exitX=0.47;exitY=1.047;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ADcBSuXb61-Bno_A6Hsj-6" target="ADcBSuXb61-Bno_A6Hsj-18">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="245" y="538" as="sourcePoint" />
+            <mxPoint x="245" y="859" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="236" y="530" />
+              <mxPoint x="236" y="761" />
+              <mxPoint x="573" y="761" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

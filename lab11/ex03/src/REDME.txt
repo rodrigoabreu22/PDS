@@ -1,0 +1,4 @@
+1) Imagine que você pretende fazer um sistema para gerenciar a comunicação entre entidades
+2) Através do padrão Mediator, podemos criar uma especie de message broker que guarda uma lista de todas as entidades
+   e é responsável por enviar mensagens às entidades pretendidas (neste caso envia para todas as entidades, broadcast)
+3) https://refactoring.guru/design-patterns/mediator

@@ -1,0 +1,3 @@
+Este padrão define a estrutura do algoritmo na classe pai mas, deixa que as classes filho façam override de alguns métodos do algoritmo sem alterar a sua estrutura.
+As classes AbstractList, AbstractSet e AbstractMap derivam da mesma classe, AbstractCollection. Todas estas classes têm uma estrutura semelhante, apesar de alguns métodos estarem implementados de forma diferente (override).
+Importante referir que as classes filho podem selecionar os métodos que pretendem dar override, ou seja, não precisam de fazer override a todos os métodos da classe pai.

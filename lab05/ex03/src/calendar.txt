@@ -1,0 +1,7 @@
+Calendar.java é uma classe abstrata com dois construtores protegidos. 
+Um é um construtor default sem argumentos (timezone e locale do sistema) e o outro aceita a passagem de argumentos.
+As classes que estendem a classe calendar (classes que representam calendários específicos de diferentes regiões), utilizam estes construtores.
+Existe uma função static createCalender(), que é responsável por criar os diferentes tipos de calendários (retorna objetos do tipo Calender).
+Isto tudo são evidências de que o Factory method é utilizado nesta classe. 
+Verifica-se também o padrão Prototype no código, devido à utilização do método clone() para alterar campos de um objeto sem alterar o original, utilizando assim o seu clone.
+Além destes 2, verifica-se também o padrão Builder, onde é evidente a criação dos objetos por etapas, na classe Builder.
